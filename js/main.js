@@ -17,4 +17,4 @@ $('.main-heading').on('sticky-end', function() {
     });
 });
 
-var foobar = yay;
+var foobar = bar;

@@ -10536,4 +10536,5 @@ $('.main-heading').on('sticky-end', function() {
     });
 });
 
-var foobar = yay;
+var foobar = bar;
+//# sourceMappingURL=app.js.map
