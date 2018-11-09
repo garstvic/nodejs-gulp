@@ -118,7 +118,7 @@ a:hover {
       padding: 20px 0; } }
 
 .main-header {
-  background: linear-gradient(#ffa949, transparent 90%), linear-gradient(0deg, #fff, transparent), #ffa949 url("../img/mountains.jpg") no-repeat center;
+  background: linear-gradient(green, transparent 90%), linear-gradient(0deg, #fff, transparent), green url("../img/mountains.jpg") no-repeat center;
   background-size: cover;
   height: 850px; }
   @media (max-width: 768px) {
