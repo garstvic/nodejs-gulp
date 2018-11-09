@@ -1,0 +1,10 @@
+// Arrow image icon
+
+.arrow {
+    margin-top: 150px;
+    width: 50px;
+    
+    @media #{$brk-narrow} {
+        display: none;
+    }
+}

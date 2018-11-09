@@ -1,0 +1,20 @@
+// Web Fonts
+
+@mixin font-face($family, $file) {
+    @font-face {
+        font-family: $family;
+        src: url('#{$path-font}/#{$file}-webfont.eot');
+        src: url('#{$path-font}/#{$file}-webfont.eot?#iefix') format('embedded-opentype'),
+             url('#{$path-font}/#{$file}-webfont.woff') format('woff'),
+             url('#{$path-font}/#{$file}-webfont.ttf') format('truetype');
+    }
+}
+
+// Text
+
+@mixin text($size, $l-height: null, $weight: null, $color: null) {
+    color: $color;
+    font-size: $size;
+    font-weight: $weight;
+    line-height: $l-height;
+}
