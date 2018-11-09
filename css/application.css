@@ -1,0 +1,180 @@
+/* Base Styles ---------------------- */
+* {
+  box-sizing: border-box; }
+
+body {
+  color: #878787;
+  font-size: 1em;
+  line-height: 1.5;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0; }
+
+h1, h2 {
+  font-family: "Abolition Regular", Helvetica, Arial, sans-serif; }
+
+h2 {
+  color: #48525c;
+  font-size: 1.25em;
+  line-height: 1.2;
+  margin-bottom: 1.7em; }
+
+h3 {
+  color: #48525c;
+  font-size: 1.25em;
+  line-height: 1.2;
+  margin-bottom: 1.7em; }
+
+img {
+  border-radius: 10px;
+  margin-bottom: 20px;
+  max-width: 100%; }
+
+ul, ol {
+  margin: 30px 0; }
+
+li {
+  margin-bottom: 10px; }
+
+/* Pseudo-classes ------------ */
+a:link {
+  color: #ffa949;
+  text-decoration: none; }
+
+a:visited {
+  color: #add8e6; }
+
+a:hover {
+  color: rgba(255, 169, 73, 0.5); }
+
+.tips {
+  float: left; }
+
+.resorts {
+  float: right; }
+
+.primary-content {
+  padding-bottom: 95px;
+  padding-top: 25px; }
+
+.secondary-content {
+  border-bottom: 2px solid #e0e0e0;
+  padding-bottom: 70px;
+  padding-top: 80px; }
+
+.wildlife {
+  background: #48525c url("../img/bear.jpg") no-repeat center;
+  background-size: cover;
+  border-radius: 10px;
+  border-top: 10px solid #ffa949;
+  box-shadow: inset 0 0 50px 10px rgba(0, 0, 0, 0.8);
+  color: #fff;
+  margin: 105px 0 60px;
+  padding: 18% 24%;
+  text-align: left; }
+  @media (max-width: 1024px) {
+    .wildlife {
+      margin: 50px 0 20px;
+      padding: 10% 12%; } }
+
+.primary-content, .main-footer, .main-header {
+  text-align: center; }
+
+.primary-content, .secondary-content {
+  border-top: 2px solid #e0e0e0; }
+
+.primary-content, .secondary-content {
+  margin: auto;
+  max-width: 960px;
+  padding-left: 50px;
+  padding-right: 50px;
+  width: 75%; }
+  @media (max-width: 1024px) {
+    .primary-content, .secondary-content {
+      width: 90%; } }
+  @media (max-width: 768px) {
+    .primary-content, .secondary-content {
+      border-top: none;
+      padding: 20px;
+      width: 100%; } }
+
+.tips, .resorts {
+  width: 46.5%; }
+  @media (max-width: 768px) {
+    .tips, .resorts {
+      float: none;
+      width: 100%; } }
+
+.secondary-content:after {
+  clear: both;
+  content: "";
+  display: table; }
+
+.main-footer {
+  border-bottom: 10px solid #ffa949;
+  padding-bottom: 60px;
+  padding-top: 60px; }
+  @media (max-width: 768px) {
+    .main-footer {
+      padding: 20px 0; } }
+
+.main-header {
+  background: linear-gradient(#ffa949, transparent 90%), linear-gradient(0deg, #fff, transparent), #ffa949 url("../img/mountains.jpg") no-repeat center;
+  background-size: cover;
+  height: 850px; }
+  @media (max-width: 768px) {
+    .main-header {
+      max-height: 380px;
+      padding: 50px 25px 0; } }
+
+/* Web Fonts ----------------------- */
+@font-face {
+  font-family: "Abolition Regular";
+  src: url("../fonts/abolition-regular-webfont.eot");
+  src: url("../fonts/abolition-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/abolition-regular-webfont.woff") format("woff"), url("../fonts/abolition-regular-webfont.ttf") format("truetype"); }
+
+.main-heading {
+  color: #fff;
+  font-size: 5.625rem;
+  font-weight: normal;
+  line-height: 1.3;
+  margin: 12px 0 0;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.8);
+  text-transform: uppercase; }
+  @media (max-width: 768px) {
+    .main-heading {
+      font-size: 5rem;
+      line-height: 1.1; } }
+
+.main-title {
+  color: #fff;
+  font-size: 1.625rem;
+  font-weight: 200;
+  border-bottom: 2px solid;
+  letter-spacing: .065em;
+  padding-bottom: 10px; }
+  @media (max-width: 768px) {
+    .main-title {
+      border: none;
+      font-size: 1.3rem; } }
+
+.intro {
+  color: initial;
+  font-size: 1.25em;
+  line-height: 1.6; }
+  @media (max-width: 768px) {
+    .intro {
+      font-size: 1rem; } }
+
+.callout {
+  border-bottom: 3px solid;
+  display: inline-block;
+  font-size: 1.25em;
+  margin-top: 20px;
+  padding: 0 9px 3px; }
+
+.arrow {
+  margin-top: 150px;
+  width: 50px; }
+  @media (max-width: 768px) {
+    .arrow {
+      display: none; } }

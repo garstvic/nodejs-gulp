@@ -7,10 +7,10 @@
     padding-top: 25px;
 }
 
-.secondara-content {
+.secondary-content {
     @extend %content;
     @extend %t-border;
-    @extend %clearfic;
+    @extend %clearfix;
     
     border-bottom: 2px solid $color-border-light;
     padding-bottom: 70px;
@@ -18,7 +18,7 @@
 }
 
 .wildlife {
-    background: $color-sec url('#{path-img}/bear.jpg') no-repeat center;
+    background: $color-sec url('#{$path-img}/bear.jpg') no-repeat center;
     background-size: cover;
     border-radius: $br;
     border-top: 10px solid $color-border-dark;
